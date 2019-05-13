@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/prodoljaet_rabotat_zvuk.unity
+- path: Assets/sdelal_schet.unity
   isLoaded: 1
   isActive: 1

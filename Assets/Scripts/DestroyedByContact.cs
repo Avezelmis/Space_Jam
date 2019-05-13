@@ -34,6 +34,7 @@ public class DestroyedByContact : MonoBehaviour
         if (other.tag == "Player")
         {
             cloneExplosion = Instantiate(explosionPlayer, GetComponent<Rigidbody>().position, GetComponent<Rigidbody>().rotation) as GameObject;
+            gameController.GameOver();
             Destroy(other.gameObject);
             Destroy(gameObject);
             Destroy(cloneExplosion, 1.0f);
